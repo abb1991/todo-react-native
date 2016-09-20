@@ -15,19 +15,10 @@ import {
 
 
 class AwesomeProject extends Component {
-
-
-    getInitialState() {
-      return 'green'
-    }
-
   render() {
-    let green = this.state.color
     return (
       <View style={styles.container}>
-        <h1>
-          { this.getInitialState }
-        </h1>
+
       </View>
     );
   }
